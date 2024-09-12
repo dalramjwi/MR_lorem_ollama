@@ -1,6 +1,6 @@
 import lorem
 # 1. Lorem Ipsum 100개 생성
-lorem_list = [lorem.sentence() for _ in range(100)]  # 100개의 문장 생성
+lorem_list = [lorem.sentence() for _ in range(10)]  # 100개의 문장 생성
 
 # 2. text.txt 파일에 쓰기
 with open("text.txt", "w") as file:
